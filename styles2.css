@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+#booksBack {
+  background: #232826;
+}
+body {
+  margin: 0;
+}
+header > h1 {
+  font-family: Lobster, "Courier New", Courier, sans-serif;
+  color: white;
+  text-align: center;
+}
+ul { /* This helps center the navbar items */
+  width: 97%;
+}
+li { /* This defines all the space that will be taken up by the navbar items. Will it adapt to smaller screens? */
+  list-style-type: none;
+  font-family: Lobster, "Courier New", Courier, sans-serif;
+  width: 16%;
+  float: left;
+  text-align: center;
+}
+li > a { /* For the navbar items */
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  font-family: Lobster, "Courier New", Courier, sans-serif;
+}
+li > a:hover { /* For the navbar items */
+  font-size: 1.6em;
+}
+
+/* Everything above is for the basic header and navbar, as well as the background color. */
+
+/* Everything below is for the actual page content. */
+
+.content {
+  background: white;
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
+.books {
+  width: 25%;
+  color: white;
+  float: left;
+  text-align: center;
+}

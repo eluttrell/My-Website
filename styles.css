@@ -1,0 +1,135 @@
+#booksBack {
+  background: #232826;
+}
+#schedBack {
+  background: #4D625F;
+}
+#comicsBack {
+  background: #151B0F;
+}
+#musicBack {
+  background: #5A1F1E;
+}
+#moviesBack {
+  background: #786B3D;
+}
+body {
+  background-color: #0B5E7F;
+}
+body {
+  margin: 0;
+}
+header > h1 {
+  font-family: Lobster, "Courier New", Courier, sans-serif;
+  color: white;
+  text-align: center;
+}
+ul { /* This helps center the navbar items */
+  width: 97%;
+}
+/* The code blocks between this comment and the next are for index2.html, where I am trying some new stuff out. */
+.row {
+  text-align: center;
+}
+.equalizer {
+  width: 2%;
+  float: left;
+}
+.navItem {
+  width: 16%;
+  float: left;
+  font-family: lobster, "Courier New", Courier, sans-serif;
+  color: white;
+}
+h2.navItem {
+  line-height: .5em;
+}
+/* The code blocks between this comment and the one above this one are for index2.html. */
+li { /* This defines all the space that will be taken up by the navbar items. Will it adapt to smaller screens? */
+  list-style-type: none;
+  font-family: Lobster, "Courier New", Courier, sans-serif;
+  width: 16%;
+  float: left;
+  text-align: center;
+}
+.main {
+  width: 70%;
+  background: #232826;
+  margin: 0 auto 0 auto;
+}
+p.main {
+  width: 90%;
+  font-size: 1.2em;
+  padding: 1em 0 .5em 0;
+  text-align: left;
+  color: white;
+}
+p.main2 {
+  width: 90%;
+  font-size: 1.2em;
+  padding: 1em 0 .5em 0;
+  text-align: center;
+  color: white;
+}
+li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  font-family: Lobster, "Courier New", Courier, sans-serif;
+}
+li > a:hover {
+  font-size: 1.6em;
+}
+figcaption {
+  color: white;
+  font-family: "Courier New", Courier, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.mainImg {
+  padding: 2.5% 2.5em 1% 1%;
+  float: right;
+}
+.mainImg2 {
+  padding: 2.5% 1% 1% 2.5em;
+  float: left;
+  border-radius: 30%;
+}
+.mainImg3 {
+  padding: 2.5% 1% 1% 2.5em;
+  float: left;
+}
+table {
+  border: 1px solid white;
+  margin: 0 auto 0 auto;
+}
+th, td {
+  border: 1px solid white;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: white;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+.schedBack {
+  background: #4D625F;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  width: 90%;
+  font-size: 1.2em;
+  padding: 1em 0 .5em 0;
+  text-align: justify;
+  color: white;
+}
+.moviesBack {
+  background: #786B3D;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  width: 90%;
+  font-size: 1.2em;
+  padding: 1em 0 .5em 0;
+  text-align: justify;
+  color: white;
+}
